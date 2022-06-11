@@ -1,0 +1,30 @@
+local CoreGui = game:GetService("StarterGui") 
+CoreGui:SetCore("SendNotification", {
+ Title = "Welcome to Strike Hub",
+ Text = "Script is loading",
+Duration = 5;
+})
+if not game:IsLoaded() then
+    repeat wait() until game:IsLoaded()
+end
+if game.PlaceId == 9522149469 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/Strike-Hub-v4/main/Stong%20clikcers"))()
+elseif game.PlaceId == 6284583030 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BLACKGAMER1221/Pet-Simulator-X/main/BK%20Pet.lua"))()
+elseif game.PlaceId == 3527629287 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/radjahfromdiscord/iNEXT/main/source"))()
+elseif game.PlaceId == 6872265039 then
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/joeengo/Future/main/loadstring.lua', true))()
+elseif game.PlaceId == 8554378337 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/Strike-Hub-v4/main/Weapon%20Fighting%20Simulator"))()
+elseif game.PlaceId == 7952502098 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/Strike-Hub-v4/main/Impossible%20Glass%20Bridge%20Obby"))()
+elseif game.PlaceId == 7560156054 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/Strike-Hub-v4/main/Impossible%20Glass%20Bridge%20Obby"))()
+elseif game.PlaceId == 8750997647 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/Strike-Hub-v4/main/Tapping%20Legends%20X"))()
+elseif game.PlaceId == 1962086868 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/Strike-Hub-v4/main/Tower%20OF%20hell"))()
+else
+    game.Players.LocalPlayer:Kick("this game is not supported yet.")
+end
