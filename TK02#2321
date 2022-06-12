@@ -22,6 +22,9 @@ elseif game.PlaceId == 8705534359 then
 elseif game.PlaceId == 6872265039 then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/joeengo/Future/main/loadstring.lua', true))()
     
+elseif game.PlaceId == 8540346411 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/games/main/Rebirth%20Champions%20X"))()
+    
 elseif game.PlaceId == 8554378337 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/Strike-Hub-v4/main/Weapon%20Fighting%20Simulator"))()
     
