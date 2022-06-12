@@ -16,6 +16,9 @@ elseif game.PlaceId == 6284583030 then
 elseif game.PlaceId == 3527629287 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/radjahfromdiscord/iNEXT/main/source"))()
     
+elseif game.PlaceId == 286090429 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/games/main/Arsenal"))()
+    
 elseif game.PlaceId == 8705534359 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/games/main/scs"))()
     
