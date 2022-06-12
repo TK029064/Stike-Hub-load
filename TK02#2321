@@ -10,9 +10,6 @@ end
 if game.PlaceId == 9522149469 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/Strike-Hub-v4/main/Stong%20clikcers"))()
     
-if game.PlaceId == 286090429 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/games/main/Arsenal"))()
-    
 elseif game.PlaceId == 6284583030 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BLACKGAMER1221/Pet-Simulator-X/main/BK%20Pet.lua"))()
     
@@ -36,6 +33,9 @@ elseif game.PlaceId == 7560156054 then
     
 elseif game.PlaceId == 8750997647 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/Strike-Hub-v4/main/Tapping%20Legends%20X"))()
+    
+elseif game.PlaceId == 286090429 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/games/main/Arsenal"))()
 else
     game.Players.LocalPlayer:Kick("this game is not supported yet.")
 end
