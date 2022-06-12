@@ -16,7 +16,7 @@ elseif game.PlaceId == 6284583030 or game.PlaceId == 7722306047 then
 elseif game.PlaceId == 3527629287 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/radjahfromdiscord/iNEXT/main/source"))()
  
-elseif game.PlaceId == 3527629287 then
+elseif game.PlaceId == 155615604 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/games/main/Prison%20Life"))()
     
 elseif game.PlaceId == 286090429 then
