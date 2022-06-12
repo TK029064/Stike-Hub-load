@@ -41,7 +41,7 @@ elseif game.PlaceId == 7952502098 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/Strike-Hub-v4/main/Impossible%20Glass%20Bridge%20Obby"))()
     
 elseif game.PlaceId == 7560156054 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/Strike-Hub-v4/main/Impossible%20Glass%20Bridge%20Obby"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/Strike-Hub-v4/main/Stong%20clikcers"))()
     
 elseif game.PlaceId == 8750997647 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/Strike-Hub-v4/main/Tapping%20Legends%20X"))()
