@@ -11,46 +11,46 @@ if game.PlaceId == 9522149469 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/Strike-Hub-v4/main/Stong%20clikcers"))()
     
 elseif game.PlaceId == 6284583030 or game.PlaceId == 7722306047 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/BLACKGAMER1221/Pet-Simulator-X/main/BK%20Pet.lua"))()
+    loadstring(game:HttpGet(""))()
     
 elseif game.PlaceId == 3527629287 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/radjahfromdiscord/iNEXT/main/source"))()
+    loadstring(game:HttpGet(""))()
     
 elseif game.PlaceId == 662417684 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/games/main/Lucky%20Block"))()
+    loadstring(game:HttpGet(""))()
  
 elseif game.PlaceId == 2619187362 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/games/main/Super%20Power%20Fighting%20Simulator"))()
+    loadstring(game:HttpGet(""))()
     
 elseif game.PlaceId == 286090429 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/games/main/Arsenal"))()
+    loadstring(game:HttpGet(""))()
     
 elseif game.PlaceId == 9203864304 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/games/main/raise%20a%20floppa"))()
+    loadstring(game:HttpGet("))()
     
 elseif game.PlaceId == 8705534359 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/games/main/scs"))()
+    loadstring(game:HttpGet("))()
     
 elseif game.PlaceId == 537413528 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/games/main/Build%20A%20Boat%20For%20Treasure"))()
+    loadstring(game:HttpGet(""))()
     
 elseif game.PlaceId == 6872265039 then
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/joeengo/Future/main/loadstring.lua', true))()
+    loadstring(game:HttpGet('', true))()
     
 elseif game.PlaceId == 8540346411 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/games/main/Rebirth%20Champions%20X"))()
+    loadstring(game:HttpGet("))()
     
 elseif game.PlaceId == 8554378337 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/Strike-Hub-v4/main/Weapon%20Fighting%20Simulator"))()
+    loadstring(game:HttpGet(""))()
     
 elseif game.PlaceId == 7952502098 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/Strike-Hub-v4/main/Impossible%20Glass%20Bridge%20Obby"))()
+    loadstring(game:HttpGet(""))()
     
 elseif game.PlaceId == 7560156054 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/Strike-Hub-v4/main/Clicker%20Simulator"))()
+    loadstring(game:HttpGet("))()
     
 elseif game.PlaceId == 8750997647 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/Strike-Hub-v4/main/Tapping%20Legends%20X"))()
+    loadstring(game:HttpGet("))()
     
 else
     game.Players.LocalPlayer:Kick("this game is not supported yet.")
