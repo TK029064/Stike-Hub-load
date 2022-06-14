@@ -31,6 +31,9 @@ elseif game.PlaceId == 9203864304 then
 elseif game.PlaceId == 8705534359 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/games/main/scs"))()
     
+elseif game.PlaceId == 537413528 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/games/main/Build%20A%20Boat%20For%20Treasure"))()
+    
 elseif game.PlaceId == 6872265039 then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/joeengo/Future/main/loadstring.lua', true))()
     
