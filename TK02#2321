@@ -15,6 +15,9 @@ elseif game.PlaceId == 6284583030 or game.PlaceId == 7722306047 then
     
 elseif game.PlaceId == 3527629287 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/radjahfromdiscord/iNEXT/main/source"))()
+    
+elseif game.PlaceId == 662417684 then
+    loadstring(game:HttpGet("loadstring(game:HttpGet("https://github.com/BlackFox1K/games/blob/main/Lucky%20Block"))()"))()
  
 elseif game.PlaceId == 2619187362 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/games/main/Super%20Power%20Fighting%20Simulator"))()
