@@ -9,6 +9,9 @@ if not game:IsLoaded() then
 end
 if game.PlaceId == 9522149469 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/Strike-Hub-v4/main/Stong%20clikcers"))()
+    
+elseif game.PlaceId == 2788229376 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NoobieDev2009/MainLock/main/Main"))()
 else
-    game.Players.LocalPlayer:Kick("the script still in development stage plis be pation")
+    game.Players.LocalPlayer:Kick("this game is not supported yet...")
 end
