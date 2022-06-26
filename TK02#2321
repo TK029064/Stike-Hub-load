@@ -10,7 +10,7 @@ end
 if game.PlaceId == 9500891570 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/games/main/Admin%20Guns"))()
 elseif game.PlaceId == 2788229376 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/NoobieDev2009/MainLock/main/Main"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/games/main/Da%20hood"))()
 elseif game.PlaceId == 5327880096 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/games/main/Online%20Business%20Simulator%202"))()
 elseif game.PlaceId == 3527629287 then
