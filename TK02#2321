@@ -15,6 +15,8 @@ elseif game.PlaceId == 5327880096 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/games/main/Online%20Business%20Simulator%202"))()
 elseif game.PlaceId == 3527629287 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/radjahfromdiscord/iNEXT/main/source"))()
+elseif game.PlaceId == 286090429 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/games/main/Arsenal%202"))()
 else
     game.Players.LocalPlayer:Kick("this game is not supported yet...")
 end
