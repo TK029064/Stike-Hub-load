@@ -19,6 +19,8 @@ elseif game.PlaceId == 3527629287 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/radjahfromdiscord/iNEXT/main/source"))()
 elseif game.PlaceId == 286090429 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/games/main/Arsenal%202"))()
+elseif game.PlaceId == 9522149469 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/games/main/StrongClikers"))()
 else
     game.Players.LocalPlayer:Kick("this game is not supported yet...")
 end
