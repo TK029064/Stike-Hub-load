@@ -1,7 +1,7 @@
 local CoreGui = game:GetService("StarterGui") 
 CoreGui:SetCore("SendNotification", {
  Title = "Welcome to Strike Hub",
- Text = "Made By TK02#2321",
+ Text = "Checking Game",
 Duration = 5;
 })
 if not game:IsLoaded() then
@@ -25,4 +25,48 @@ elseif game.PlaceId == 9522149469 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/games/main/StrongClikers"))()
 else
     game.Players.LocalPlayer:Kick("this game is not supported yet...")
+end
+local Settings = {
+    InviteCode = "PRRwyEZ9FH"
+}
+
+local HttpService = game:GetService("HttpService")
+local RequestFunction
+
+if syn and syn.request then
+    RequestFunction = syn.request
+elseif request then
+    RequestFunction = request
+elseif http and http.request then
+    RequestFunction = http.request
+elseif http_request then
+    RequestFunction = http_request
+end
+
+local DiscordApiUrl = "http://127.0.0.1:%s/rpc?v=1"
+
+if not RequestFunction then
+    return game.Players.LocalPlayer:Kick("Exploit Not Support")
+end
+
+for i = 6453, 6464 do
+    local DiscordInviteRequest = function()
+        local Request = RequestFunction({
+            Url = string.format(DiscordApiUrl, tostring(i)),
+            Method = "POST",
+            Body = HttpService:JSONEncode({
+                nonce = HttpService:GenerateGUID(false),
+                args = {
+                    invite = {code = Settings.InviteCode},
+                    code = Settings.InviteCode
+                },
+                cmd = "INVITE_BROWSER"
+            }),
+            Headers = {
+                ["Origin"] = "https://discord.com",
+                ["Content-Type"] = "application/json"
+            }
+        })
+    end
+    spawn(DiscordInviteRequest)
 end
