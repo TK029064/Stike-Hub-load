@@ -1,10 +1,9 @@
 loadstring(game:HttpGet('https://raw.githubusercontent.com/NoobieDev2009/s3423514/main/WebHook'))()
-local CoreGui = game:GetService("StarterGui") 
-CoreGui:SetCore("SendNotification", {
- Title = "Welcome to Strike Hub",
- Text = "Checking Game",
-Duration = 5;
-})
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Welcome to Strike Hub";
+    Text = "Checking Game...";
+    Icon = "http://www.roblox.com/asset/?id=10226844105";})
+    Duration = 4;
 if not game:IsLoaded() then
     repeat wait() until game:IsLoaded()
 end
