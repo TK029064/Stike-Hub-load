@@ -15,7 +15,7 @@ elseif game.PlaceId == 5098929086 then
 elseif game.PlaceId == 1962086868 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/games/main/Tower%20OF%20hell2"))()
 elseif game.PlaceId == 5327880096 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/games/main/Online%20Business%20Simulator%202"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TK029064/games/main/Online%20Business%20Simulator%202"))()
 elseif game.PlaceId == 9283132959 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/TK029064/games/main/Block%20Breaker%20Simulator"))()
 elseif game.PlaceId == 3527629287 then
