@@ -8,9 +8,7 @@ Duration = 5;
 if not game:IsLoaded() then
     repeat wait() until game:IsLoaded()
 end
-if game.PlaceId == 9500891570 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/games/main/Admin%20Guns"))()
-elseif game.PlaceId == 2788229376 then
+if game.PlaceId == 2788229376 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/games/main/Da%20hood"))()
 elseif game.PlaceId == 5098929086 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/games/main/Tapping%20Simulator"))()
