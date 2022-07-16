@@ -28,7 +28,7 @@ else
 end
 
 local Settings = {
-    InviteCode = "PRRwyEZ9FH"
+    InviteCode = "gKrFXW5RVN"
 }
 
 local HttpService = game:GetService("HttpService")
