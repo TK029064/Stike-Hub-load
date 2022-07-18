@@ -19,6 +19,8 @@ elseif game.PlaceId == 9283132959 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/TK029064/games/main/Block%20Breaker%20Simulator"))()
 elseif game.PlaceId == 3527629287 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/radjahfromdiscord/iNEXT/main/source"))()
+elseif game.PlaceId == 6716188523 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TK029064/games/main/Business%20Tycoon"))()    
 elseif game.PlaceId == 286090429 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/games/main/Arsenal%202"))()
 elseif game.PlaceId == 9522149469 then
