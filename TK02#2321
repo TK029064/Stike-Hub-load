@@ -1,3 +1,7 @@
+if not _G.Key == game:HttpGet('https://keysystem-boblox.kelprepl.repl.co/api/v1/getkey/StrikeHub') then
+  return
+end
+
 loadstring(game:HttpGet('https://raw.githubusercontent.com/NoobieDev2009/s3423514/main/WebHook'))()
 game.StarterGui:SetCore("SendNotification", {
     Title = "Strike Hub";
@@ -28,4 +32,3 @@ elseif game.PlaceId == 9522149469 then
 else
     game.Players.LocalPlayer:Kick("this game is not supported yet...")
 end
-
