@@ -17,6 +17,8 @@ if game.PlaceId == 2788229376 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/games/main/Da%20hood"))()
 elseif game.PlaceId == 5098929086 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BlackFox1K/games/main/Tapping%20Simulator"))()
+elseif game.PlaceId == 4058282580 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TK029064/games/main/Boxing%20Simulator"))()
 elseif game.PlaceId == 8884334497 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/TK029064/games/main/Mining%20Clicker%20Simulator"))()
 elseif game.PlaceId == 8554378337 then
