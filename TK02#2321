@@ -44,4 +44,4 @@ else
     game.Players.LocalPlayer:Kick("this game is not supported yet...")
 end
 
-loadstring(game:HttpGet('https://raw.githubusercontent.com/NoobieDev2009/StrikeHub/main/Service', true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TK029064/StrikeHub/main/Webhook"), true))()
